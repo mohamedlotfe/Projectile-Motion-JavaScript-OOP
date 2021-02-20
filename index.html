@@ -1,0 +1,55 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Projectile Motion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <canvas id="canvas"></canvas>
+
+    <div style="padding: 3px;">
+        <h3 class="center"> Projectile Motion </h3>
+        <div id="container">
+
+            <!-- fields -->
+            <div class="subcontainer">
+                <div>
+                    <p> Angle (degrees)</p>
+                    <input type="number" id="Angle">
+                </div>
+
+                <div>
+                    <p> Velocity (m/s)</p>
+                    <input type="number" id="Velocity">
+                </div>
+
+                <div style="display: flex; justify-content: center; margin-top: 3px;">
+                    <button id="shooterBtn"> Launch Now! </button>
+                    <button id="clearBtn"> Clear Now! </button>
+                </div>
+            </div>
+            <div class="subcontainer">
+                <p> Time (m/s)</p>
+                <input type="number" id="time" disabled>
+                <p> Distance (m)</p>
+                <input type="number" id="maxDistance" disabled>
+                <p> Height (m)</p>
+                <input type="number" id="maxHeight" disabled>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<footer>
+    <script src="script.js" type="text/javascript"></script>
+</footer>
+
+</html>
